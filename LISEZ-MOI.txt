@@ -1,0 +1,12 @@
+Cahier SQL — version hors ligne (cahier-sql-360abd82ab)
+
+Ce dossier est une application web installable (PWA).
+Il doit être servi par un serveur web (https:// ou http://localhost), pas ouvert directement comme fichier.
+
+Tester sur un ordinateur :
+  cd ce-dossier
+  python -m http.server 8080
+  puis ouvrir http://localhost:8080 dans Chrome.
+
+Une fois la page ouverte une première fois, attends que le sommaire affiche
+« Hors ligne : tout est prêt », puis installe-la (menu ⋮ > Installer l'application).
