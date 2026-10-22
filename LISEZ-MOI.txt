@@ -1,4 +1,4 @@
-Cahier SQL — version hors ligne (cahier-sql-360abd82ab)
+Cahier SQL — version hors ligne (cahier-sql-ad4c8d2115)
 
 Ce dossier est une application web installable (PWA).
 Il doit être servi par un serveur web (https:// ou http://localhost), pas ouvert directement comme fichier.

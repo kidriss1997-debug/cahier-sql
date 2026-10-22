@@ -1,5 +1,5 @@
 // Cahier SQL — service worker : met tout l'application en cache pour l'utiliser sans connexion.
-const CACHE = "cahier-sql-360abd82ab";
+const CACHE = "cahier-sql-ad4c8d2115";
 const FILES = ["./","fonts/baloo-2-latin-500-normal.woff2","fonts/baloo-2-latin-600-normal.woff2","fonts/baloo-2-latin-700-normal.woff2","fonts/baloo-2-latin-800-normal.woff2","fonts/jetbrains-mono-latin-400-normal.woff2","fonts/jetbrains-mono-latin-600-normal.woff2","fonts/nunito-latin-400-italic.woff2","fonts/nunito-latin-400-normal.woff2","fonts/nunito-latin-600-normal.woff2","fonts/nunito-latin-700-normal.woff2","fonts/nunito-latin-800-normal.woff2","icons/apple-180.png","icons/icon-192.png","icons/icon-512.png","icons/maskable-512.png","index.html","manifest.webmanifest","pglite-postgis/index.js","pglite/chunk-2BOC2OMW.js","pglite/chunk-DDJLRBDX.js","pglite/chunk-F4GETNPB.js","pglite/chunk-JDT7TZ73.js","pglite/chunk-NNS5RQRF.js","pglite/chunk-QY3QWFKW.js","pglite/chunk-RYDTTX3G.js","pglite/contrib/pg_trgm.js","pglite/contrib/pgcrypto.js","pglite/contrib/unaccent.js","pglite/index.js","pg-initdb.wasm","pg-pg_trgm-tar-gz.wasm","pg-pgcrypto-tar-gz.wasm","pg-pglite-data.wasm","pg-pglite.wasm","pg-postgis-0.wasm","pg-postgis-1.wasm","pg-unaccent-tar-gz.wasm"];
 self.addEventListener('install', event => {
   self.skipWaiting();
